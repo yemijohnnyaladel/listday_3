@@ -5,6 +5,6 @@ with open("readme.md") as f:
             text = f.read()
             print(text)
             with open("readme.md", "w") as f:
-                f.write("update the insertion with a new note\n")
+                f.write("update the insertion with a new note")
                 with open("readme.md", "a") as f:
-                    f.write("new one\n")
+                    f.write("Ai\n")
