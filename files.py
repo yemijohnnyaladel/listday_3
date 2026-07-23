@@ -4,3 +4,7 @@ with open("readme.md") as f:
         with open("readme.md") as f:
             text = f.read()
             print(text)
+            with open("readme.md", "w") as f:
+                f.write("update the insertion with a new note\n")
+                with open("readme.md", "a") as f:
+                    f.write("new one\n")

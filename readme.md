@@ -1,1 +1,1 @@
-this is a day 03 for lisin and counting arrays example
+update the insertion with a new note
